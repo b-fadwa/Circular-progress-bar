@@ -34,7 +34,7 @@ const CircularProgressBar: FC<ICircularProgressBarProps> = ({
         counterClockwise={counterClockwise}
         maxValue={100}
         minValue={0}
-        value={50}
+        value={60}
         text={showText ? `${60}%` : ''}
         styles={{
           path: {
